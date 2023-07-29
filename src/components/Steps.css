@@ -1,0 +1,89 @@
+.container {
+  background-color: #1b2e2f;
+  border-top: #cd986f solid 1px;
+  height: auto;
+}
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  direction: ltr;
+  gap: 350px;
+}
+
+@media screen and (max-width: 480px) {
+  .step {
+    flex-direction: column-reverse;
+    padding: 10px;
+    gap: 0;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+}
+.steps-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.steps-left {
+  flex: 1;
+}
+
+.steps-left img {
+  width: 600px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 5px 3px #fff;
+}
+
+@media screen and (max-width: 480px) {
+  .steps-left img {
+    width: 300px;
+  }
+}
+
+h1 {
+  color: #fff;
+  direction: rtl;
+  border-bottom: solid 2px;
+}
+
+.steps-right h2 {
+  direction: rtl;
+  font-size: 30px;
+  color: #cd986f;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .steps-right h2 {
+    font-size: 25px;
+  }
+}
+.steps-right p {
+  direction: rtl;
+  font-size: 20px;
+  color: #ffffffaa;
+  line-height: 55px;
+  margin-left: 45px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 480px) {
+  #step2 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #step4 {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #step6 {
+    flex-direction: column;
+  }
+}
